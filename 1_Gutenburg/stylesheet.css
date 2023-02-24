@@ -90,3 +90,13 @@ hr {
     text-align: center;
     height: 2pt;
 }
+
+a {
+    color: darkred;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightcoral;
+    text-decoration: underline;
+}
