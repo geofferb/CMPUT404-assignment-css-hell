@@ -4,5 +4,9 @@ body {
 
 img {
     filter: opacity(90%);
-    border: double
+    border: 4pt double black;
 }
+
+/* .chapter p::first-of-type {
+    font-size: 2em;
+} */
