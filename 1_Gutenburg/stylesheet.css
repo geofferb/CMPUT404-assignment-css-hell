@@ -13,6 +13,7 @@ h3 {
     font-family: 'Georgia', Times, serif;
 }
 
+h2,
 h3 {
 
     font-variant: small-caps;
@@ -20,8 +21,7 @@ h3 {
     text-align: center;
 }
 
-h2::before,
-h2::after,
+
 h3::before,
 h3::after {
     /* Horizontal line surrounding header text */
@@ -35,13 +35,13 @@ h3::after {
     width: 50%;
 }
 
-h2:before,
+
 h3:before {
     right: 0.5em;
     margin-left: -50%;
 }
 
-h2:after,
+
 h3:after {
     left: 0.5em;
     margin-right: -50%;
