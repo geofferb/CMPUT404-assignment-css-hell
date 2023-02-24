@@ -1,0 +1,8 @@
+body {
+    background-color: #ffe5ac;
+}
+
+img {
+    filter: opacity(90%);
+    border: double
+}
