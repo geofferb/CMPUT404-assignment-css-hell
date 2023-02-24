@@ -64,8 +64,9 @@ p {
 /* The first letter of an unformatted p after the first formatted p in a chapter */
 .chapter>p[class]:nth-of-type(1)+p:not([class], [style]):first-letter,
 .chapter>p[style]:nth-of-type(1)+p:not([class], [style]):first-letter,
-/* The first letter of the first unformatted p after an , in case the chapter class isn't used */
-h3+p:not([class], [style]):first-letter {
+/* The first letter of the first unformatted p after a header , in case the chapter class isn't used */
+h3+p:not([class], [style]):first-letter,
+h2+p:not([class], [style]):first-letter {
     font-size: 250%;
     font-weight: bold;
     text-shadow: tan -5px 2px 2px;
