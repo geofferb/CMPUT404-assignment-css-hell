@@ -5,6 +5,7 @@ body {
 img {
     filter: opacity(90%);
     border: 4pt double black;
+    filter: drop-shadow(-3px 3px 8px #a79775)
 }
 
 h1,
@@ -19,6 +20,7 @@ h3 {
     font-variant: small-caps;
     overflow: hidden;
     text-align: center;
+
 }
 
 
@@ -48,6 +50,15 @@ h3:after {
 }
 
 
-.chapter>p:first-of-type::first-letter {
-    font-size: 2em;
+/* give the first letter of the first paragraph in each chapter a larger font size,  */
+/*excluding any already formatted text (e.g. intro text, subtitles ,etc) */
+.chapter>p:not([class], [style]):nth-of-type(1):first-letter,
+/* The first letter of an unformatted p after the first formatted p in a chapter */
+.chapter>p[class]:nth-of-type(1)+p:not([class], [style]):first-letter,
+.chapter>p[style]:nth-of-type(1)+p:not([class], [style]):first-letter,
+/* The first letter of the first unformatted p after an , in case the chapter class isn't used */
+h3+p:not([class], [style]):first-letter {
+    font-size: 250%;
+    font-weight: bold;
+    text-shadow: tan -5px 2px 2px;
 }
