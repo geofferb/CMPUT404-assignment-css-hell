@@ -7,6 +7,18 @@ img {
     border: 4pt double black;
 }
 
-/* .chapter p::first-of-type {
+h1,
+h2,
+h3 {
+    font-family: 'Georgia', Times, serif;
+}
+
+h3 {
+
+    font-variant: small-caps
+}
+
+
+/* .chapter p:first-of-type::first-letter {
     font-size: 2em;
 } */
