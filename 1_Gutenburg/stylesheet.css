@@ -54,6 +54,10 @@ h3:after {
 }
 
 
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 /* give the first letter of the first paragraph in each chapter a larger font size,  */
 /*excluding any already formatted text (e.g. intro text, subtitles ,etc) */
 .chapter>p:not([class], [style]):nth-of-type(1):first-letter,
