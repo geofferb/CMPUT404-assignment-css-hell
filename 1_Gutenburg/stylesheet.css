@@ -1,5 +1,9 @@
+:root {
+    --main-bg-color: #ffe5ac;
+}
+
 body {
-    background-color: #ffe5ac;
+    background-color: var(--main-bg-color);
 }
 
 img {
@@ -61,4 +65,23 @@ h3+p:not([class], [style]):first-letter {
     font-size: 250%;
     font-weight: bold;
     text-shadow: tan -5px 2px 2px;
+}
+
+
+hr:after {
+    /* adapted from MDN: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr */
+    background: var(--main-bg-color);
+    content: '⁂';
+    padding: 0 2pt;
+    position: relative;
+    top: -0.7em;
+}
+
+hr {
+    border: none;
+    border-top: 2pt double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 2pt;
 }

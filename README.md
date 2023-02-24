@@ -36,4 +36,4 @@ Credits
 =======
 * [CSS lines surrounding text](https://stackoverflow.com/a/14731123) by [Puigcerber](https://stackoverflow.com/users/706246/puigcerber) on StackOverflow, licensed under CC BY-SA 3.0.
 
-
+* ``<hr>`` styling from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr, code examples are CC-0
