@@ -15,10 +15,39 @@ h3 {
 
 h3 {
 
-    font-variant: small-caps
+    font-variant: small-caps;
+    overflow: hidden;
+    text-align: center;
+}
+
+h2::before,
+h2::after,
+h3::before,
+h3::after {
+    /* Horizontal line surrounding header text */
+    /* adopted from https://stackoverflow.com/a/14731123 */
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 0.5pt;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+h2:before,
+h3:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+h2:after,
+h3:after {
+    left: 0.5em;
+    margin-right: -50%;
 }
 
 
-/* .chapter p:first-of-type::first-letter {
+.chapter>p:first-of-type::first-letter {
     font-size: 2em;
-} */
+}
