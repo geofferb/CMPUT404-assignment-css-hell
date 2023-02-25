@@ -66,11 +66,14 @@ p {
 .chapter>p[style]:nth-of-type(1)+p:not([class], [style]):first-letter,
 /* The first letter of the first unformatted p after a header , in case the chapter class isn't used */
 h3+p:not([class], [style]):first-letter,
-h2+p:not([class], [style]):first-letter {
+h2+p:not([class], [style]):first-letter,
+/* When there is an image between the chapter heading and first paragraph */
+h3+div+hr+p::first-letter {
     font-size: 250%;
     font-weight: bold;
     text-shadow: tan -5px 2px 2px;
 }
+
 
 
 hr:after {
