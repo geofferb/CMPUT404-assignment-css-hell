@@ -16,8 +16,9 @@ HTML changes
 ============
 To apply CSS to each HTML ebook, the following line was added to each file.
 ```html
-<link rel="stylesheet" href="/1_Gutenburg/stylesheet.css" />
+<link rel="stylesheet" href="stylesheet.css" />
 ```
+Since both book 2 and 3 store their cover as `cover.jpg`, book 2's cover was renamed to `cover2.jpg`, and its reference in `2.html` was changed accordingly.
 
 
 
