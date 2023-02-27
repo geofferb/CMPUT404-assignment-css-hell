@@ -122,3 +122,18 @@ div.text-bundle * {
     margin: 0;
 
 }
+
+footer {
+    margin-bottom: 1em;
+}
+
+footer>p {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+a {
+    color: white;
+
+}
