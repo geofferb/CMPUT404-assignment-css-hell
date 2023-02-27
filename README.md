@@ -25,13 +25,15 @@ Since both book 2 and 3 store their cover as `cover.jpg`, book 2's cover was ren
 License/Copyright
 =================
 
-Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
+Textual content is copyright Abram Hindle (C) 2013 and Geoffery Banh (C) 2023 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
-repository and (C) 2013 Abram Hindle visibile in the text.
-
-Code is copyright Geoffery Banh (C) 2023 under the Apache 2.0 license.
+repository and (C) 2023 Abram Hindle and  Geoffery Banh visible in the text.
 
 All HTML ebooks are in the public domain from Project Gutenburg.
+
+All other CSS and HTML is copyright Geoffery Banh (C) 2023 under the CC-BY-SA 4.0 license.
+
+
 
 Credits
 =======
