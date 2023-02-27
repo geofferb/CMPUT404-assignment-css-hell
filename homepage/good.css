@@ -104,14 +104,6 @@ div.card {
     margin-top: 0px;
 }
 
-p,
-h2,
-h3,
-li {
-    color: var(--main-bg-color);
-
-}
-
 li.ubl {
     list-style-type: none;
     text-indent: -0.75em;
